@@ -1,0 +1,49 @@
+toda pagina web debe tener un index.html
+este index.xtml debe estar en la raiz  (root directory del proyecto). de hecho lo que determina al root directory es donde esta ubicado el index.html, el padre directo de este archivo es por definicion el root directory.
+index.html es el punto de entrada de nuestra pagina web
+
+
+Sintaxis HTML:
+
+En html existen etiquetas, las hay de 2 tipos:
+de cierre :
+    <etiqueta></etiqueta>
+
+de autocierre:
+<etiqueta/>
+    o
+    <etiqueta>
+
+en html existen los elementos. Estos determinan que haran las etiquetas. Un elemento puede tener significado o funcionalidad
+el elemento determina que tipo de etiqueta es, esta definido en el mismo lenguaje
+
+    el elemento h1 que significa/funciona 'encabezado principal' y es de cierre
+        <h1>Hola mundo </h1>
+    el elemento button funciona para crear un boton en la pagina
+        <button>Abrir</button>
+
+    El elemento img sirve para insertar imagenes en el navegador y es de autocierre
+        <img>
+        o
+        >img/>
+    
+    en html cada elemento puede tener atributos, los mismos se declaran en la misma etiqueta. Los atributos disponibles para usar en cada etiqueta LOS DETERMINA EL elemento. O sea el elemento determina que atributos tiene disponibles. los elementos pueden tener mas de un atributo
+    Los atributos sirven para configurar/customizar un elemento
+
+Para guardar hay que apretar control + s 
+Etiquetas que contienen otras etiquetas
+
+ALT+SHIFT+A  = es un comentario
+
+<body> //esto es un anidamiento (y desde que se abre hasta que se cierra, dentro contiene todo eso)
+<h1 id="titulo"></h1>
+<div></div>
+<input type="text">
+<input type="number">
+<input type="color">
+<input type="datetime">
+<button type="button"></button>
+    </body> (hasta aca todo el body)
+
+
+
